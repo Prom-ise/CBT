@@ -1,86 +1,193 @@
-.body{
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+.body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  margin: 2em;
+  /* line-height: 10px; */
 }
-.school{
+.school-name{
     text-align: center;
+    text-transform: uppercase;
+    /* margin-top: 3em; */
+}
+.term{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.9em;
+}
+.sub{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.9em;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3em;
+}
+.butt-group {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper {
+  width: 15em;
+  height: 4em;
+  margin: 1em;
+  font-size: 1.1em;
+  font-weight: 700;
+  background-color: #076d14;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.upper:hover {
+  scale: 1.1;
+  border-radius: 5px;
+  background-color: rgb(5, 161, 5);
+  color: #242424;
+  font-weight: 700;
+  cursor: pointer;
+}
+#mainWork {
+  display: none;
+}
+.school {
+  text-align: center;
 }
 #timer {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(17, 0, 255);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(17, 0, 255);
 }
-.sect{
-    font-size: 22px;
-    font-weight: 600;
+.sect {
+  font-size: 22px;
+  font-weight: 600;
 }
-.div{
-    display: flex;
-    gap: 45px;
-    margin-left: 1em;
-    justify-content: center;
+.div {
+  display: flex;
+  gap: 45px;
+  margin-left: 1em;
+  justify-content: center;
 }
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.inpu{
-    margin-right: 0.6em;
-    width: 2em;
-    height: 2em;
+.inpu {
+  margin-right: 0.6em;
+  width: 2em;
+  height: 2em;
 }
-li{
-    margin-bottom: 1em;
+li {
+  margin-bottom: 0.6em;
 }
-.instruct{
-    font-size: 22px;
-    font-style: italic;
+
+.instruct {
+  font-size: 22px;
+  font-style: italic;
 }
-span{
-    font-size: 23px;
-    font-weight: 600;
-    margin-right: 0.2em;
+span {
+  font-size: 23px;
+  font-weight: 600;
+  margin-right: 0.2em;
 }
-ol{
-    font-size: 28px;
+ol {
+  font-size: 28px;
 }
-.first{
+.first {
   box-sizing: border-box;
   border: 2px solid lime;
   background-color: black;
-  width: 30em;  
+  width: 30em;
+  padding: 1.1em 2.2em;
   color: #ffffff;
-  padding: 1em;
+  /* padding: 1em; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 2em;
+  margin-bottom: 1em;
 }
-.first.ii, .first.iii, .first.iv, .first.v{
-    opacity: 1;
+.first.ii,
+.first.iii,
+.first.iv,
+.first.v,
+.first.vi,
+.first.vii,
+.first.viii,
+.first.ix,
+.first.x {
+  margin-bottom: 1em;
 }
-.but{
-    background-color: #0ffc2f;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 5px;
-    margin-top: 1em;
-    margin-left: 1em;
+.but {
+  background-color: #0ffc2f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-top: 1em;
+  margin-left: 1em;
 }
-.but:hover{
-    background-color: #ff0000;
+.but:hover {
+  background-color: #ff0000;
 }
-.but:active{
-    background-color: #ff0000;
-    transform: translateY(4px);
+.but:active {
+  background-color: #ff0000;
+  transform: translateY(4px);
 }
-.but:focus{
+.but:focus {
+  outline: none;
+}
+.submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#results{
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+}
+#result-card{
+    display: none;
+    position: fixed;
+    width: 30em;
+    text-align: center;
+    padding: 1em;
+    height: 10em;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border: 2px solid black;
+    top: 40%;
+    left: 30%;
+    right: 0;
+}
+.retake{
+    background-color: black;
+    border-radius: 6px;
+    font-size: 1.2em;
     outline: none;
+    border: transparent;
+    padding: 0.51em 1.7em;
+    transition: .3s;
+}
+.retake:hover{
+    background-color: #242424;
+    cursor: pointer;
+}
+.retake:active{
+    scale: 0.8;
 }
