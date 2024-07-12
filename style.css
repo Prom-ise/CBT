@@ -52,13 +52,14 @@
   font-weight: 700;
   cursor: pointer;
 }
-#mainWork {
+#mainWork, #mainWork2, #mainWork1 {
   display: none;
 }
 .school {
   text-align: center;
 }
 #timer {
+  /* position: fixed; */
   font-size: 20px;
   font-weight: bold;
   color: rgb(17, 0, 255);
@@ -151,18 +152,27 @@ ol {
     justify-content: center;
     align-items: center;
 }
-#results{
+#results, #results2, #results3{
   font-size: 2.5em;
   font-weight: 700;
   text-align: center;
+  color: green;
+  transition: .3s
 }
-#result-card{
+#results:hover, #results2:hover, #results3:hover{
+  color: white;
+  cursor: not-allowed;
+  filter: blur(10px);
+}
+#result-card, #result-card2, #result-card3{
     display: none;
     position: fixed;
-    width: 30em;
+    top: 15%;
+    left: 23%;
+    width: 35em;
     text-align: center;
     padding: 1em;
-    height: 10em;
+    height: 12em;
     font-size: 1.3em;
     box-sizing: border-box;
     border-radius: 20px;
@@ -171,9 +181,6 @@ ol {
     align-items: center;
     background-color: green;
     border: 2px solid black;
-    top: 40%;
-    left: 30%;
-    right: 0;
 }
 .retake{
     background-color: black;

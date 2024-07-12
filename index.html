@@ -1,137 +1,505 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXAMINATION</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class='body'>
     <div>
         <h1 class="school-name">Glorystar International School</h1>
         <h3 class="term">THIRD TERM EXAMINATION 23/24 ACADEMIC SESSION</h3>
-        <h3 class="sub"><span>SUBJECT: C.C.A</span>	<span>CLASS: ....</span></h3>
+        <h3 class="sub"><span>SUBJECT: C.C.A</span> <span>CLASS: ....</span></h3>
     </div>
     <div class="butt-group" id="butt-group">
         <div class=buttons>
-        <button class="upper" onclick="jss_one()">UPPER GRADE ONE</button>
-        <button class="upper" onclick="jss_two()">UPPER GRADE TWO</button>
-        <button class="upper" onclick="jss_three()">UPPER GRADE THREE</button>
+            <button class="upper" onclick="jss_one()">UPPER GRADE ONE</button>
+            <button class="upper" onclick="jss_two()">UPPER GRADE TWO</button>
+            <button class="upper" onclick="jss_three()">UPPER GRADE THREE</button>
+        </div>
     </div>
+    <div id="mainWork1">
+        <h3 class="sub"><span>SUBJECT: C.C.A</span> <span>CLASS: UPPER GRADE ONE</span></h3>
+        <div id="timer">Time left: <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        <div class='div'>
+            <div class="sect">SECTION A: OBJECTIVE</div>
+            <div class="instruct">Answer all the following questions correctly</div>
+        </div>
+        <form id="upperGradeOneExam">
+            <ol>
+                <div class="first">
+                    <li>
+                        <div>The several alphabet used in the composition arrangement and studying of music are____</div>
+                        <input type="radio" class="inpu" id="answera_1" name="answer11"><span>a.</span> b,c,d,e,f,h,i<br>
+                        <input class="inpu" type="radio" id="correcta" name="answer11"><span>b.</span> a,b,c,d,e,f,g<br>
+                        <input type="radio" class="inpu" id="answera_3" name="answer11"><span>c.</span> b,c,d,e,f,g,h <br>
+                        <input type="radio" class="inpu" id="answera_4" name="answer11"><span>d.</span> a,b,c,d,e,g,f <br>
+                    </li>
+                </div>
+                <div class="first ii">
+                    <li>
+                        <div>The following are type of staff <b>except</b></div>
+                        <input type="radio" class="inpu" id="correctb" name="answer12"><span>a.</span> Octave<br>
+                        <input type="radio" class="inpu" id="answerb_2" name="answer12"><span>b.</span> Bass clef<br>
+                        <input type="radio" class="inpu" id="answerb_3" name="answer12"><span>c.</span> Great stave<br>
+                        <input type="radio" class="inpu" id="answerb_4" name="answer12"><span>d.</span> Treble clef<br>
+                    </li>
+                </div>
+                <div class="first iii">
+                    <li>
+                        <div>The following are types of scale except</div>
+                        <input type="radio" class="inpu" id="answerc_1" name="answer13"><span>a.</span> Diatonic scale <br>
+                        <input type="radio" class="inpu" id="answerc_2" name="answer13"><span>b.</span> Pentatonic scale <br>
+                        <input type="radio" class="inpu" id="correctc" name="answer13"><span>c.</span> Chronic scale <br>
+                        <input type="radio" class="inpu" id="answerc_4" name="answer13"><span>d.</span> Hexatonic scale <br>
+                    </li>
+                </div>
+                <div class="first iv">
+                    <li>
+                        <div>One of these is a major use of music</div>
+                        <input type="radio" class="inpu" id="answerd_1" name="answer14"><span>a.</span> For mocking <br>
+                        <input type="radio" class="inpu" id="answerd_2" name="answer14"><span>b.</span> For Insulting <br>
+                        <input type="radio" class="inpu" id="answerd_3" name="answer14"><span>c.</span> For impression<br>
+                        <input type="radio" class="inpu" id="correctd" name="answer14"><span>d.</span> For healing<br>
+                    </li>
+                </div>
+                <div class="first v">
+                    <li>
+                        <div>_______ is a genre of literature usually written to be performed or acted on stage</div>
+                        <input type="radio" class="inpu" id="correcte" name="answer15"><span>a.</span> Drama<br>
+                        <input type="radio" class="inpu" id="answere_2" name="answer15"><span>b.</span> Theatre<br>
+                        <input type="radio" class="inpu" id="answere_3" name="answer15"><span>c.</span> Cartoon <br>
+                        <input type="radio" class="inpu" id="answere_4" name="answer15"><span>d.</span> Poetic<br>
+                    </li>
+                </div>
+                <div class="first vi">
+                    <li>
+                        <div>The following are people involved in theatre drama <b>except</b></div>
+                        <input type="radio" class="inpu" id="answerf_2" name="answer16"><span>a.</span> Audiences <br>
+                        <input class="inpu" type="radio" id="correctf" name="answer16"><span>b.</span> Promoters <br>
+                        <input type="radio" class="inpu" id="answerf_3" name="answer16"><span>c.</span> Director<br>
+                        <input type="radio" class="inpu" id="answerf_4" name="answer16"><span>d.</span> Playwright <br>
+                    </li>
+                </div>
+                <div class="first vii">
+                    <li>
+                        <div>The basic primary colours consist of _____, ______, and _____</div>
+                        <input type="radio" class="inpu" id="correctg" name="answer7"><span>a.</span> red, blue, and yellow<br>
+                        <input type="radio" class="inpu" id="answerg_2" name="answer17"><span>b.</span> red, blue, and orange<br>
+                        <input type="radio" class="inpu" id="answerg_3" name="answer17"><span>c.</span> blue, yellow, and green<br>
+                        <input type="radio" class="inpu" id="answerg_4" name="answer17"><span>d.</span> red, blue, and green <br>
+                    </li>
+                </div>
+                <div class="first viii">
+                    <li>
+                        <div>Blue + Yellow gives ______</div>
+                        <input type="radio" class="inpu" id="answerh_1" name="answer18"><span>a.</span> Red <br>
+                        <input type="radio" class="inpu" id="answerh_2" name="answer18"><span>b.</span> Purple <br>
+                        <input type="radio" class="inpu" id="correcth" name="answer18"><span>c.</span> Green <br>
+                        <input type="radio" class="inpu" id="answerh_4" name="answer18"><span>d.</span> Orange <br>
+                    </li>
+                </div>
+                <div class="first ix">
+                    <li>
+                        <div>One of the following is not a form of drama play</div>
+                        <input type="radio" class="inpu" id="answeri_1" name="answer19"><span>a.</span>Tragic comedy<br>
+                        <input type="radio" class="inpu" id="answeri_2" name="answer19"><span>b.</span> Comedy<br>
+                        <input type="radio" class="inpu" id="answeri_3" name="answer19"><span>c.</span> Tragedy<br>
+                        <input type="radio" class="inpu" id="correcti" name="answer19"><span>d.</span> Chronical Drama<br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>The element of drama are as follows <b>except</b></div>
+                        <input type="radio" class="inpu" id="correctj" name="answer20"><span>a.</span> Weaving <br>
+                        <input type="radio" class="inpu" id="answerj_2" name="answer20"><span>b.</span> Plot <br>
+                        <input type="radio" class="inpu" id="answerj_3" name="answer20"><span>c.</span> Script <br>
+                        <input type="radio" class="inpu" id="answerj_4" name="answer20"><span>d.</span> Lighting <br>
+                    </li>
+                </div>
+            </ol>
+        </form>
+        <br>
+        <div class="submit-button"><input type="submit" class="but" name="submit" onclick="result()"
+                value="Submit Exam"></div>
+        <div class='result-card' id="result-card">
+            <div>
+                <div>Well done! You have successfully submitted your exam <br>Score</div>
+                <div>Kindly stand and make a report to your supervisor about your successful submission, so the next
+                    student can take over.</div>
+                <div id='results'></div>
+                <button class="retake" type="submit" id="retake2" onclick="retake2()">Next Student</button>
+
+            </div>
+        </div>
     </div>
+    <div id="mainWork2">
+        <h3 class="sub"><span>SUBJECT: C.C.A</span> <span>CLASS: UPPER GRADE TWO</span></h3>
+        <div id="timer">Time left: <span id="hours2">00</span>:<span id="minutes2">00</span>:<span
+                id="seconds2">00</span>
+        </div>
+        <div class='div'>
+            <div class="sect">SECTION A: OBJECTIVE</div>
+            <div class="instruct">Answer all the following questions correctly</div>
+        </div>
+        <form id="upperGradeTwoExam">
+            <ol>
+                <div class="first">
+                    <li>
+                        <div>The arangement of various element such as pitch, rhythm, melody, harmony etc, to create a
+                            composition that is pleasant to the ear is </div>
+                        <input type="radio" class="inpu" id="correct#" name="answer21"><span>a.</span> Music<br>
+                        <input class="inpu" type="radio" id="answer#_1" name="answer21"><span>b.</span> Instruments<br>
+                        <input type="radio" class="inpu" id="answer#_3" name="answer21"><span>c.</span> Chorus<br>
+                        <input type="radio" class="inpu" id="answer#_4" name="answer21"><span>d.</span> Dance<br>
+                    </li>
+                </div>
+                <div class="first ii">
+                    <li>
+                        <div>The following are examples of popular music <b>except</b></div>
+                        <input type="radio" class="inpu" id="answer##_2" name="answer22"><span>a.</span> Highlife <br>
+                        <input type="radio" class="inpu" id="correct##" name="answer22"><span>b.</span> Ballerina <br>
+                        <input type="radio" class="inpu" id="answer##_3" name="answer22"><span>c.</span> Juju <br>
+                        <input type="radio" class="inpu" id="answer##_4" name="answer22"><span>d.</span> Hip hop <br>
+                    </li>
+                </div>
+                <div class="first iii">
+                    <li>
+                        <div>The old Nigerian National Anthem was adopted by</div>
+                        <input type="radio" class="inpu" id="correct###" name="answer23"><span>a.</span>Benedict Odiase <br>
+                        <input type="radio" class="inpu" id="answer###_2" name="answer23"><span>b.</span>Sir Fedrick Lord Luggard<br>
+                        <input type="radio" class="inpu" id="answer###_1" name="answer23"><span>c.</span>Taiwo Akinkunmi<br>
+                        <input type="radio" class="inpu" id="answer###_4" name="answer23"><span>d.</span>Fumilayo Ransom Kuti <br>
+                    </li>
+                </div>
+                <div class="first iv">
+                    <li>
+                        <div>The visual aspects of a production involving series of activities done to mmake a stage appealing to the audience is called?</div>
+                        <input type="radio" class="inpu" id="answer#v_1" name="answer24"><span>a.</span> Costume <br>
+                        <input type="radio" class="inpu" id="answer#v_2" name="answer24"><span>b.</span> Drama<br>
+                        <input type="radio" class="inpu" id="correct#v" name="answer24"><span>c.</span> Theatre design<br>
+                        <input type="radio" class="inpu" id="answer#v_3" name="answer24"><span>d.</span> Entertainment<br>
+                    </li>
+                </div>
+                <div class="first v">
+                    <li>
+                        <div>Which one of the following is the odd one out in areas of theatre design</div>
+                        <input type="radio" class="inpu" id="answerv_3" name="answer25"><span>a.</span> Costume<br>
+                        <input type="radio" class="inpu" id="answerv_2" name="answer25"><span>b.</span> Set<br>
+                        <input type="radio" class="inpu" id="correctv" name="answer25"><span>c.</span> Chairs <br>
+                        <input type="radio" class="inpu" id="answerv_4" name="answer25"><span>d.</span> Light<br>
+                    </li>
+                </div>
+                <div class="first vi">
+                    <li>
+                        <div>Another name for colour is</div>
+                        <input type="radio" class="inpu" id="answerv#_2" name="answer26"><span>a.</span> Clairvoyance <br>
+                        <input class="inpu" type="radio" id="answerv#_4" name="answer26"><span>b.</span> Tint <br>
+                        <input type="radio" class="inpu" id="answerv#_3" name="answer26"><span>c.</span> Color<br>
+                        <input type="radio" class="inpu" id="correctv#" name="answer26"><span>d.</span> Hue <br>
+                    </li>
+                </div>
+                <div class="first vii">
+                    <li>
+                        <div>Red colour symbolizes</div>
+                        <input type="radio" class="inpu" id="answerv##_4" name="answer27"><span>a.</span> Power, Annoyance, Temperature & anger<br>
+                        <input type="radio" class="inpu" id="answerv##_2" name="answer27"><span>b.</span> Sorrow, death, evil<br>
+                        <input type="radio" class="inpu" id="answerv##_3" name="answer27"><span>c.</span> Wealth, loyalty and fertility<br>
+                        <input type="radio" class="inpu" id="correctv##" name="answer27"><span>d.</span>Danger, warning & Bravery <br>
+                    </li>
+                </div>
+                <div class="first viii">
+                    <li>
+                        <div>There are ________ types of primary colour</b></span></div>
+                        <input type="radio" class="inpu" id="correctv###" name="answer28"><span>a.</span> 3<br>
+                        <input type="radio" class="inpu" id="answerv###_2" name="answer28"><span>b.</span> 4<br>
+                        <input type="radio" class="inpu" id="answerv###_1" name="answer28"><span>c.</span> 5<br>
+                        <input type="radio" class="inpu" id="answerv###_4" name="answer28"><span>d.</span> 6<br>
+                    </li>
+                </div>
+                <div class="first ix">
+                    <li>
+                        <div>When two primary colours are mixed together, we get a _______ colour</div>
+                        <input type="radio" class="inpu" id="answer#x_1" name="answer29"><span>a.</span>Double primary colours<br>
+                        <input type="radio" class="inpu" id="correct#x" name="answer29"><span>b.</span> Secondary colour<br>
+                        <input type="radio" class="inpu" id="answer#x_3" name="answer29"><span>c.</span> Intermediate colour<br>
+                        <input type="radio" class="inpu" id="answer#x_2" name="answer29"><span>d.</span> Tertiary colour<br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>Red plus Blue give us</div>
+                        <input type="radio" class="inpu" id="answerx_3" name="answer30"><span>a.</span> Orange <br>
+                        <input type="radio" class="inpu" id="answerx_2" name="answer30"><span>b.</span> Green <br>
+                        <input type="radio" class="inpu" id="correctx" name="answer30"><span>c.</span> Purple <br>
+                        <input type="radio" class="inpu" id="answerx_4" name="answer30"><span>d.</span> Brown <br>
+                    </li>
+                </div>
+                <div class="first vi">
+                    <li>
+                        <div>An artistic process or craft of attaching bead to one another by stringing them to make items jewelries</div>
+                        <input type="radio" class="inpu" id="correctx#" name="answer31"><span>a.</span> Bead work<br>
+                        <input class="inpu" type="radio" id="answerx#_4" name="answer31"><span>b.</span> Mosaic <br>
+                        <input type="radio" class="inpu" id="answerx#_3" name="answer31"><span>c.</span> Collage<br>
+                        <input type="radio" class="inpu" id="answerx#_2" name="answer31"><span>d.</span> Bead stitching<br>
+                    </li>
+                </div>
+                <div class="first vii">
+                    <li>
+                        <div>All but one of the following are type or method in music</div>
+                        <input type="radio" class="inpu" id="answerx##_4" name="answer32"><span>a.</span> Sensuous listening<br>
+                        <input type="radio" class="inpu" id="correctx##" name="answer32"><span>b.</span> Danceable type<br>
+                        <input type="radio" class="inpu" id="answerx##_3" name="answer32"><span>c.</span> Expressive type<br>
+                        <input type="radio" class="inpu" id="answerx##_2" name="answer32"><span>d.</span>Cheerlie muiscal type <br>
+                    </li>
+                </div>
+                <div class="first viii">
+                    <li>
+                        <div>One of these instruments accompany Fuji music "a popular genre of music in Nigeria"</b></span></div>
+                        <input type="radio" class="inpu" id="answerx###_2" name="answer33"><span>a.</span> Drum set<br>
+                        <input type="radio" class="inpu" id="correctx###" name="answer33"><span>b.</span> Talking Drum<br>
+                        <input type="radio" class="inpu" id="answerx###_1" name="answer33"><span>c.</span> Piano<br>
+                        <input type="radio" class="inpu" id="answerx###_4" name="answer33"><span>d.</span> Tambourine<br>
+                    </li>
+                </div>
+                <div class="first ix">
+                    <li>
+                        <div>The following are major reasons voice traaining exercise is done <b>except</b></div>
+                        <input type="radio" class="inpu" id="answerx#v_1" name="answer34"><span>a.</span> Do some tongues and leap warm up<br>
+                        <input type="radio" class="inpu" id="answerx#v_3" name="answer34"><span>b.</span> Try to master musical notes and tonic solfa perfectly<br>
+                        <input type="radio" class="inpu" id="correctx#v" name="answer34"><span>c.</span> To impress friends and family<br>
+                        <input type="radio" class="inpu" id="answerx#v_2" name="answer34"><span>d.</span> Engage in relaxation exercise line stretching and breathing warm up<br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>The basic ingredients that make drama performance successful is</div>
+                        <input type="radio" class="inpu" id="answerxv_3" name="answer35"><span>a.</span> Costume design <br>
+                        <input type="radio" class="inpu" id="answerxv_2" name="answer35"><span>b.</span> Theatre design <br>
+                        <input type="radio" class="inpu" id="answerxv_4" name="answer35"><span>c.</span> Drama desgin <br>
+                        <input type="radio" class="inpu" id="correctxv" name="answer35"><span>d.</span> Element of design <br>
+                    </li>
+                </div>
+            </ol>
+        </form>
+        <br>
+        <div class="submit-button"><input type="submit" class="but" name="submit" onclick="result2()"
+                value="Submit Exam"></div>
+        <div class='result-card' id="result-card2">
+            <div>
+                <div>Well done! You have successfully submitted your exam <br>Score</div>
+                <div>Kindly stand and make a report to your supervisor about your successful submission, so the next
+                    student can take over.</div>
+                <div id='results2'></div>
+                <button class="retake" type="submit" id="retake3" onclick="retake3()">Next Student</button>
+            </div>
+        </div>
+    </div>
+
     <div id="mainWork">
-        <h3 class="sub"><span>SUBJECT: C.C.A</span>	<span>CLASS: UPPER GRADE THREE</span></h3>
-    <div id="timer">Time left: <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span></div>
-    <div class='div'>
-    <div class="sect">SECTION A: OBJECTIVE</div>
-    <div class="instruct">Answer all the following questions correctly</div>
-</div>
-<form id="upperGradeThreeExam">
-<ol>
-    <div class="first">
-    <li>
-        <div>_______ is the act of making special designs on desired part of a cloth with thread and needle.</div>
-        <input type="radio" class="inpu" id="answer1_1" name="answer1"><span>a.</span> Knitting<br>
-        <input class="inpu"type="radio" id="correct1" name="answer1"><span>b.</span> Embroidery<br>
-        <input type="radio" class="inpu" id="answer1_3" name="answer1"><span>c.</span> Sewing <br>
-        <input type="radio" class="inpu" id="answer1_4" name="answer1"><span>d.</span> Crafting <br>
-    </li>
-</div>
-<div class="first ii">
-    <li>
-        <div>One following is a function of package design </div>
-        <input type="radio" class="inpu"id="correct2" name="answer2"><span>a.</span> Protection of product <br>
-        <input type="radio" class="inpu" id="answer2_2" name="answer2"><span>b.</span> Licensed Product <br>
-        <input type="radio" class="inpu" id="answer2_3" name="answer2"><span>c.</span> Designing the product <br>
-        <input type="radio" class="inpu" id="answer2_4" name="answer2"><span>d.</span> Selling the product <br>
-    </li>
-</div>
-<div class="first iii">
-    <li>
-        <div>What does NGO stands for?</div>
-        <input type="radio" class="inpu" id="answer3_1" name="answer3"><span>a.</span> National Growth Organisation <br>
-        <input type="radio" class="inpu" id="answer3_2" name="answer3"><span>b.</span> Nigerian Grant Operation <br>
-        <input type="radio" class="inpu" id="correct3" name="answer3"><span>c.</span> Non Governmental Organisation <br>
-        <input type="radio" class="inpu" id="answer3_4" name="answer3"><span>d.</span> New Guide Organisation <br>
-    </li>
-    </div>
-    <div class="first iv">
-    <li>
-        <div>The following are sources of embroidery <span><b>except</b></span>_______</div>
-        <input type="radio" class="inpu" id="answer4_1" name="answer4"><span>a.</span> Nature <br>
-        <input type="radio" class="inpu" id="answer4_2" name="answer4"><span>b.</span> Environment <br>
-        <input type="radio" class="inpu" id="answer4_3" name="answer4"><span>c.</span> Flowers <br>
-        <input type="radio" class="inpu" id="correct4" name="answer4"><span>d.</span> Entertainment <br>
-    </li>
-    </div>
-    <div class="first v">
-    <li>
-        <div>Which of the following tools is used in collection of thread during embroidery making</div>
-        <input type="radio" class="inpu" id="correct5" name="answer5"><span>a.</span> Embroidery hook <br>
-        <input type="radio" class="inpu" id="answer5_2" name="answer5"><span>b.</span> Embroidery needle <br>
-        <input type="radio" class="inpu" id="answer5_3" name="answer5"><span>c.</span> Carton <br>
-        <input type="radio" class="inpu" id="answer5_4" name="answer5"><span>d.</span> Tracing wheel <br>
-    </li>
-    </div>
-    <div class="first vi">
-        <li>
-            <div>The act or technique involve in maing fabric by interlogging loops of on or more yard is known as _______</div>
-            <input type="radio" class="inpu" id="answer6_2" name="answer6"><span>a.</span> Weaving <br>
-            <input class="inpu"type="radio" id="correct6" name="answer6"><span>b.</span> Knitting <br>
-            <input type="radio" class="inpu" id="answer6_3" name="answer6"><span>c.</span> Stiching<br>
-            <input type="radio" class="inpu" id="answer6_4" name="answer6"><span>d.</span> Pleating <br>
-        </li>
-    </div>
-    <div class="first vii">
-        <li>
-            <div>One of the following is defined as the design or plane material that will be sold into cloths after the embroidery designs might have been done on it</div>
-            <input type="radio" class="inpu"id="correct7" name="answer7"><span>a.</span> Textile Materials <br>
-            <input type="radio" class="inpu" id="answer7_2" name="answer7"><span>b.</span> Design Materials <br>
-            <input type="radio" class="inpu" id="answer7_3" name="answer7"><span>c.</span> Flowers and beads <br>
-            <input type="radio" class="inpu" id="answer7_4" name="answer7"><span>d.</span> Paper <br>
-        </li>
-    </div>
-    <div class="first viii">
-        <li>
-            <div>The following are materials and tools used in knitting <span><b>except</b></span></div>
-            <input type="radio" class="inpu" id="answer8_1" name="answer8"><span>a.</span> Neated pin <br>
-            <input type="radio" class="inpu" id="answer8_2" name="answer8"><span>b.</span> Needle <br>
-            <input type="radio" class="inpu" id="correct8" name="answer8"><span>c.</span> Paper <br>
-            <input type="radio" class="inpu" id="answer8_4" name="answer8"><span>d.</span> Wool <br>
-        </li>
+        <h3 class="sub"><span>SUBJECT: C.C.A</span> <span>CLASS: UPPER GRADE THREE</span></h3>
+        <div id="timer">Time left: <span id="hours3">00</span>:<span id="minutes3">00</span>:<span
+                id="seconds3">00</span>
         </div>
-        <div class="first ix">
-        <li>
-            <div>One of the following is a method of transferring embroidery design</div>
-            <input type="radio" class="inpu" id="answer9_1" name="answer9"><span>a.</span>Stepping on the tracing wheel <br>
-            <input type="radio" class="inpu" id="answer9_2" name="answer9"><span>b.</span> Loop stitching <br>
-            <input type="radio" class="inpu" id="answer9_3" name="answer9"><span>c.</span> Taking pictures of designs <br>
-            <input type="radio" class="inpu" id="correct9" name="answer9"><span>d.</span> Direct drawing of design <br>
-        </li>
+        <div class='div'>
+            <div class="sect">SECTION A: OBJECTIVE</div>
+            <div class="instruct">Answer all the following questions correctly</div>
         </div>
-        <div class="first x">
-        <li>
-            <div>________ is the act of using yarn to weave a knitted material either to make it knit or to mend it.</div>
-            <input type="radio"  class="inpu"id="correct10" name="answer10"><span>a.</span> Weaving <br>
-            <input type="radio" class="inpu" id="answer10_2" name="answer10"><span>b.</span> Knitting <br>
-            <input type="radio" class="inpu" id="answer10_3" name="answer10"><span>c.</span> Needle <br>
-            <input type="radio" class="inpu" id="answer10_4" name="answer10"><span>d.</span> Stitching <br>
-        </li>
-        </div>
-</ol>
-</form>
-<br>
-<div class="submit-button"><input type="submit" class="but" name="submit" onclick="result()" value="Submit Exam"></div>
-<div class='result-card' id="result-card">
-  <div>
-    <div>Well done! You have successfully submitted your exam <br>Score</div><div id='results'></div>
-    <button class="retake" id="retakes" onclick="retake()">Retake</button>
+        <form id="upperGradeThreeExam">
+            <ol>
+                <div class="first">
+                    <li>
+                        <div>_______ is the act of making special designs on desired part of a cloth with thread and
+                            needle.</div>
+                        <input type="radio" class="inpu" id="answer1_1" name="answer1"><span>a.</span> Knitting<br>
+                        <input class="inpu" type="radio" id="correct1" name="answer1"><span>b.</span> Embroidery<br>
+                        <input type="radio" class="inpu" id="answer1_3" name="answer1"><span>c.</span> Sewing <br>
+                        <input type="radio" class="inpu" id="answer1_4" name="answer1"><span>d.</span> Crafting <br>
+                    </li>
+                </div>
+                <div class="first ii">
+                    <li>
+                        <div>One following is a function of package design </div>
+                        <input type="radio" class="inpu" id="correct2" name="answer2"><span>a.</span> Protection of
+                        product <br>
+                        <input type="radio" class="inpu" id="answer2_2" name="answer2"><span>b.</span> Licensed Product
+                        <br>
+                        <input type="radio" class="inpu" id="answer2_3" name="answer2"><span>c.</span> Designing the
+                        product <br>
+                        <input type="radio" class="inpu" id="answer2_4" name="answer2"><span>d.</span> Selling the
+                        product <br>
+                    </li>
+                </div>
+                <div class="first iii">
+                    <li>
+                        <div>What does NGO stands for?</div>
+                        <input type="radio" class="inpu" id="answer3_1" name="answer3"><span>a.</span> National Growth
+                        Organisation <br>
+                        <input type="radio" class="inpu" id="answer3_2" name="answer3"><span>b.</span> Nigerian Grant
+                        Operation <br>
+                        <input type="radio" class="inpu" id="correct3" name="answer3"><span>c.</span> Non Governmental
+                        Organisation <br>
+                        <input type="radio" class="inpu" id="answer3_4" name="answer3"><span>d.</span> New Guide
+                        Organisation <br>
+                    </li>
+                </div>
+                <div class="first iv">
+                    <li>
+                        <div>The following are sources of embroidery <span><b>except</b></span>_______</div>
+                        <input type="radio" class="inpu" id="answer4_1" name="answer4"><span>a.</span> Nature <br>
+                        <input type="radio" class="inpu" id="answer4_2" name="answer4"><span>b.</span> Environment <br>
+                        <input type="radio" class="inpu" id="answer4_3" name="answer4"><span>c.</span> Flowers <br>
+                        <input type="radio" class="inpu" id="correct4" name="answer4"><span>d.</span> Entertainment <br>
+                    </li>
+                </div>
+                <div class="first v">
+                    <li>
+                        <div>Which of the following tools is used in collection of thread during embroidery making</div>
+                        <input type="radio" class="inpu" id="correct5" name="answer5"><span>a.</span> Embroidery hook
+                        <br>
+                        <input type="radio" class="inpu" id="answer5_2" name="answer5"><span>b.</span> Embroidery needle
+                        <br>
+                        <input type="radio" class="inpu" id="answer5_3" name="answer5"><span>c.</span> Carton <br>
+                        <input type="radio" class="inpu" id="answer5_4" name="answer5"><span>d.</span> Tracing wheel
+                        <br>
+                    </li>
+                </div>
+                <div class="first vi">
+                    <li>
+                        <div>The act or technique involve in making fabric by interlogging loops of on or more yard is
+                            known as _______</div>
+                        <input type="radio" class="inpu" id="answer6_2" name="answer6"><span>a.</span> Weaving <br>
+                        <input class="inpu" type="radio" id="correct6" name="answer6"><span>b.</span> Knitting <br>
+                        <input type="radio" class="inpu" id="answer6_3" name="answer6"><span>c.</span> Stiching<br>
+                        <input type="radio" class="inpu" id="answer6_4" name="answer6"><span>d.</span> Pleating <br>
+                    </li>
+                </div>
+                <div class="first vii">
+                    <li>
+                        <div>One of the following is defined as the design or plane material that will be sold into
+                            cloths after the embroidery designs might have been done on it</div>
+                        <input type="radio" class="inpu" id="correct7" name="answer7"><span>a.</span> Textile Materials
+                        <br>
+                        <input type="radio" class="inpu" id="answer7_2" name="answer7"><span>b.</span> Design Materials
+                        <br>
+                        <input type="radio" class="inpu" id="answer7_3" name="answer7"><span>c.</span> Flowers and beads
+                        <br>
+                        <input type="radio" class="inpu" id="answer7_4" name="answer7"><span>d.</span> Paper <br>
+                    </li>
+                </div>
+                <div class="first viii">
+                    <li>
+                        <div>The following are materials and tools used in knitting <span><b>except</b></span></div>
+                        <input type="radio" class="inpu" id="answer8_1" name="answer8"><span>a.</span> Neated pin <br>
+                        <input type="radio" class="inpu" id="answer8_2" name="answer8"><span>b.</span> Needle <br>
+                        <input type="radio" class="inpu" id="correct8" name="answer8"><span>c.</span> Paper <br>
+                        <input type="radio" class="inpu" id="answer8_4" name="answer8"><span>d.</span> Wool <br>
+                    </li>
+                </div>
+                <div class="first ix">
+                    <li>
+                        <div>One of the following is a method of transferring embroidery design</div>
+                        <input type="radio" class="inpu" id="answer9_1" name="answer9"><span>a.</span>Stepping on the
+                        tracing wheel <br>
+                        <input type="radio" class="inpu" id="answer9_2" name="answer9"><span>b.</span> Loop stitching
+                        <br>
+                        <input type="radio" class="inpu" id="answer9_3" name="answer9"><span>c.</span> Taking pictures
+                        of designs <br>
+                        <input type="radio" class="inpu" id="correct9" name="answer9"><span>d.</span> Direct drawing of
+                        design <br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>________ is the act of using yarn to weave a knitted material either to make it knit or to
+                            mend it.</div>
+                        <input type="radio" class="inpu" id="correct10" name="answer10"><span>a.</span> Weaving <br>
+                        <input type="radio" class="inpu" id="answer10_2" name="answer10"><span>b.</span> Knitting <br>
+                        <input type="radio" class="inpu" id="answer10_3" name="answer10"><span>c.</span> Needle <br>
+                        <input type="radio" class="inpu" id="answer10_4" name="answer10"><span>d.</span> Stitching <br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>_______ simply means a route of a design</div>
+                        <input type="radio" class="inpu" id="answer11_4" name="answer11"><span>a.</span> Fabric <br>
+                        <input type="radio" class="inpu" id="answer11_2" name="answer11"><span>b.</span> Nature <br>
+                        <input type="radio" class="inpu" id="answer11_3" name="answer11"><span>c.</span> Pattern <br>
+                        <input type="radio" class="inpu" id="correct11" name="answer11"><span>d.</span> Motif <br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>These are various methods of to create a perfect package design <b>except</b></div>
+                        <input type="radio" class="inpu" id="answer12_2" name="answer12"><span>a.</span> Printing <br>
+                        <input type="radio" class="inpu" id="correct12" name="answer12"><span>b.</span> Name of Product
+                        <br>
+                        <input type="radio" class="inpu" id="answer12_3" name="answer12"><span>c.</span> Illustration
+                        selection <br>
+                        <input type="radio" class="inpu" id="answer12_4" name="answer12"><span>d.</span> construction of
+                        suitable lettering <br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>The popular Artwork Sango (God of Thunder) by Ben Enwonwu was located at</div>
+                        <input type="radio" class="inpu" id="answer13_2" name="answer13"><span>a.</span> the University
+                        of Ibadan, Ibadan <br>
+                        <input type="radio" class="inpu" id="correct13" name="answer13"><span>b.</span> outside PHCN
+                        headquarters in Marmer, Lagos <br>
+                        <input type="radio" class="inpu" id="answer13_3" name="answer13"><span>c.</span> st. Paul
+                        church, Ebute meta, Lagos <br>
+                        <input type="radio" class="inpu" id="answer13_4" name="answer13"><span>d.</span> Washington DC
+                        <br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>'<b>NDE</b>' Stands for?</div>
+                        <input type="radio" class="inpu" id="answer14_4" name="answer14"><span>a.</span> National
+                        Director of Entertainment <br>
+                        <input type="radio" class="inpu" id="answer14_2" name="answer14"><span>b.</span> National
+                        Designs of Earth <br>
+                        <input type="radio" class="inpu" id="answer14_3" name="answer14"><span>c.</span> Nigerian
+                        Developer Enterprises <br>
+                        <input type="radio" class="inpu" id="correct14" name="answer14"><span>d.</span> National
+                        Directorate of Employment <br>
+                    </li>
+                </div>
+                <div class="first x">
+                    <li>
+                        <div>One of these is made to decorate blanket edges and is used in finishing material</div>
+                        <input type="radio" class="inpu" id="answer15_3" name="answer15"><span>a.</span> Feather stitch
+                        <br>
+                        <input type="radio" class="inpu" id="answer15_2" name="answer15"><span>b.</span> String stitch
+                        <br>
+                        <input type="radio" class="inpu" id="correct15" name="answer15"><span>c.</span> Loop stitch <br>
+                        <input type="radio" class="inpu" id="answer15_4" name="answer15"><span>d.</span> End stitch <br>
+                    </li>
+                </div>
+            </ol>
+        </form>
+        <br>
+        <div class="submit-button"><input type="submit" class="but" name="submit" onclick="result3()"
+                value="Submit Exam"></div>
+        <div class='result-card' id="result-card3">
+            <div>
+                <div>Well done! You have successfully submitted your exam <br>Score</div>
+                <div>Kindly stand and make a report to your supervisor about your successful submission, so the next
+                    student can take over.</div>
+                <div id='results3'></div>
+                <button class="retake" id="retakes" onclick="retake()">Next Student</button>
 
-</div>
-</div>
-</div>
+            </div>
+        </div>
+    </div>
 
-  
-<script src='script.js'></script>
+
+    <script src='script.js'></script>
 </body>
+
 </html>
