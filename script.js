@@ -131,7 +131,8 @@ function updateTimerDisplay3() {
 function result() {
     if (window.confirm(`Are you sure you want to submit your exam`)) {
         resultCard.style.display = 'block';
-        var score = 0;
+        let score = 0;
+        const correctMark = 7
     
         // List of correct answer IDs
         var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx'];
@@ -142,7 +143,7 @@ function result() {
     
             // Check if the element is found and if it is checked
             if (correctAnswerElement && correctAnswerElement.checked) {
-                score++;
+                score += correctMark;
             }
         }
     
@@ -154,7 +155,8 @@ function result() {
 }
 function resulti() {
         resultCard.style.display = 'block';
-        var score = 0;
+        let score = 0;
+        const correctMark = 7
     
         // List of correct answer IDs
         var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx'];
@@ -165,7 +167,7 @@ function resulti() {
     
             // Check if the element is found and if it is checked
             if (correctAnswerElement && correctAnswerElement.checked) {
-                score++;
+                score += correctMark;
             }
         }
     
@@ -177,7 +179,8 @@ function resulti() {
     function result2() { 
         if (window.confirm(`Are you sure you want to submit your exam`)) {
             resultCard2.style.display = 'block';
-            var score = 0;
+            let score = 0;
+            const correctMark = 4.66666666667
         
             // List of correct answer IDs
             var correctAnswers = ['correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx', 'correctx#', 'correctx##', 'correctx###', 'correctx#v', 'correctxv'];
@@ -188,7 +191,7 @@ function resulti() {
         
                 // Check if the element is found and if it is checked
                 if (correctAnswerElement && correctAnswerElement.checked) {
-                    score++;
+                    score += correctMark;
                 }
             }
         
@@ -200,7 +203,8 @@ function resulti() {
       }
       function result2i() { 
             resultCard2.style.display = 'block';
-            var score = 0;
+            let score = 0;
+            const correctMark = 4.66666666667
         
             // List of correct answer IDs
             var correctAnswers = ['correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx', 'correctx#', 'correctx##', 'correctx###', 'correctx#v', 'correctxv'];
@@ -211,7 +215,7 @@ function resulti() {
         
                 // Check if the element is found and if it is checked
                 if (correctAnswerElement && correctAnswerElement.checked) {
-                    score++;
+                    score += correctMark;
                 }
             }
         
@@ -224,7 +228,8 @@ function resulti() {
 function result3() {
     if (window.confirm(`Are you sure you want to submit your exam`)) {
         resultCard3.style.display = 'block';
-        var score = 0;
+        let score = 0;
+        const correctMark = 4.66666666667
     
         // List of correct answer IDs
         var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correct11', 'correct12', 'correct13', 'correct14', 'correct15'];
@@ -235,7 +240,7 @@ function result3() {
     
             // Check if the element is found and if it is checked
             if (correctAnswerElement && correctAnswerElement.checked) {
-                score++;
+                score += correctMark;
             }
         }
     
@@ -247,7 +252,8 @@ function result3() {
 }
 function result3i() {
         resultCard3.style.display = 'block';
-        var score = 0;
+        let score = 0;
+        const correctMark = 4.66666666667
     
         // List of correct answer IDs
         var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correct11', 'correct12', 'correct13', 'correct14', 'correct15'];
@@ -258,7 +264,7 @@ function result3i() {
     
             // Check if the element is found and if it is checked
             if (correctAnswerElement && correctAnswerElement.checked) {
-                score++;
+                score += correctMark;
             }
         }
     
