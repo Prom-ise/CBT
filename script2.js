@@ -134,7 +134,7 @@ function result() {
         var score = 0;
     
         // List of correct answer IDs
-        var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx'];
+        var correctAnswers = ['correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correctk', 'correctl', 'correctm', 'correctn', 'correcto'];
     
         // Loop through each correct answer ID
         for (var i = 0; i < correctAnswers.length; i++) {
@@ -157,7 +157,7 @@ function resulti() {
         var score = 0;
     
         // List of correct answer IDs
-        var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx'];
+        var correctAnswers = ['correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correctk', 'correctl', 'correctm', 'correctn', 'correcto'];
     
         // Loop through each correct answer ID
         for (var i = 0; i < correctAnswers.length; i++) {
