@@ -132,10 +132,10 @@ function result() {
     if (window.confirm(`Are you sure you want to submit your exam`)) {
         resultCard.style.display = 'block';
         let score = 0;
-        const correctMark = 4.66666666667
+        const correctMark = 2
     
         // List of correct answer IDs
-        var correctAnswers = ['correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correctk', 'correctl', 'correctm', 'correctn', 'correcto'];
+        var correctAnswers = ['correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correctk', 'correctl', 'correctm', 'correctn', 'correcto', 'correctp', 'correctq', 'correctr', 'corrects', 'correctt', 'correct_1', 'correct_2', 'correct_3', 'correct_4', 'correct_5', 'correct_6', 'correct_7', 'correct_8', 'correct_9', 'correct_10', 'correct_11', 'correct_12', 'correct_13', 'correct_14', 'correct_15'];
     
         // Loop through each correct answer ID
         for (var i = 0; i < correctAnswers.length; i++) {
@@ -156,10 +156,10 @@ function result() {
 function resulti() {
         resultCard.style.display = 'block';
         let score = 0;
-        const correctMark = 4.66666666667
+        const correctMark = 2
     
         // List of correct answer IDs
-        var correctAnswers = ['correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correctk', 'correctl', 'correctm', 'correctn', 'correcto'];
+        var correctAnswers = ['correcta', 'correctb', 'correctc', 'correctd', 'correcte', 'correctf', 'correctg', 'correcth', 'correcti', 'correctj', 'correctk', 'correctl', 'correctm', 'correctn', 'correcto', 'correctp', 'correctq', 'correctr', 'corrects', 'correctt', 'correct_1', 'correct_2', 'correct_3', 'correct_4', 'correct_5', 'correct_6', 'correct_7', 'correct_8', 'correct_9', 'correct_10', 'correct_11', 'correct_12', 'correct_13', 'correct_14', 'correct_15'];
     
         // Loop through each correct answer ID
         for (var i = 0; i < correctAnswers.length; i++) {
@@ -180,10 +180,10 @@ function resulti() {
         if (window.confirm(`Are you sure you want to submit your exam`)) {
             resultCard2.style.display = 'block';
             let score = 0;
-        const correctMark = 4.66666666667
+        const correctMark = 2
         
             // List of correct answer IDs
-            var correctAnswers = ['correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx', 'correctx#', 'correctx##', 'correctx###', 'correctx#v', 'correctxv'];
+            var correctAnswers = ['correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx', 'correctx#', 'correctx##', 'correctx###', 'correctx#v', 'correctxv', 'correct_a1', 'correct_b1', 'correct_c1', 'correct_d1', 'correct_e1', 'correct_f1', 'correct_g1', 'correct_h1', 'correct_i1', 'correct_j1', 'correct_k1', 'correct_l1', 'correct_m1', 'correct_n1', 'correct_o1', 'correct_p1', 'correct_q1', 'correct_r1', 'correct_s1', 'correct_t1'];
         
             // Loop through each correct answer ID
             for (var i = 0; i < correctAnswers.length; i++) {
@@ -204,10 +204,10 @@ function resulti() {
       function result2i() { 
             resultCard2.style.display = 'block';
             let score = 0;
-        const correctMark = 4.66666666667
+        const correctMark = 2
         
             // List of correct answer IDs
-            var correctAnswers = ['correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx', 'correctx#', 'correctx##', 'correctx###', 'correctx#v', 'correctxv'];
+            var correctAnswers = ['correct#', 'correct##', 'correct###', 'correct#v', 'correctv', 'correctv#', 'correctv##', 'correctv###', 'correct#x', 'correctx', 'correctx#', 'correctx##', 'correctx###', 'correctx#v', 'correctxv', 'correct_a1', 'correct_b1', 'correct_c1', 'correct_d1', 'correct_e1', 'correct_f1', 'correct_g1', 'correct_h1', 'correct_i1', 'correct_j1', 'correct_k1', 'correct_l1', 'correct_m1', 'correct_n1', 'correct_o1', 'correct_p1', 'correct_q1', 'correct_r1', 'correct_s1', 'correct_t1'];
         
             // Loop through each correct answer ID
             for (var i = 0; i < correctAnswers.length; i++) {
@@ -229,7 +229,7 @@ function result3() {
     if (window.confirm(`Are you sure you want to submit your exam`)) {
         resultCard3.style.display = 'block';
         let score = 0;
-        const correctMark = 4.66666666667
+        const correctMark = 2
     
         // List of correct answer IDs
         var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correct11', 'correct12', 'correct13', 'correct14', 'correct15'];
@@ -253,7 +253,7 @@ function result3() {
 function result3i() {
         resultCard3.style.display = 'block';
         let score = 0;
-        const correctMark = 4.66666666667
+        const correctMark = 2
     
         // List of correct answer IDs
         var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correct11', 'correct12', 'correct13', 'correct14', 'correct15'];
