@@ -232,7 +232,7 @@ function result3() {
         const correctMark = 2
     
         // List of correct answer IDs
-        var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correct11', 'correct12', 'correct13', 'correct14', 'correct15'];
+        var correctAnswers = ['correct_16', 'correct_17', 'correct_18', 'correct_19', 'correct_20', 'correct_21', 'correct_22', 'correct_23', 'correct_24', 'correct_25', 'correct_26', 'correct_27', 'correct_28', 'correct_29', 'correct_30', 'correct_#16', 'correct_#17', 'correct_#18', 'correct_#19', 'correct_#20', 'correct_#21', 'correct_#22', 'correct_#23', 'correct_#24', 'correct_#25', 'correct_#26', 'correct_#27', 'correct_#28', 'correct_#29', 'correct_#30', 'correct_#31', 'correct_#32', 'correct_#33', 'correct_#34', 'correct_#35'];
     
         // Loop through each correct answer ID
         for (var i = 0; i < correctAnswers.length; i++) {
@@ -256,7 +256,7 @@ function result3i() {
         const correctMark = 2
     
         // List of correct answer IDs
-        var correctAnswers = ['correct1', 'correct2', 'correct3', 'correct4', 'correct5', 'correct6', 'correct7', 'correct8', 'correct9', 'correct10', 'correct11', 'correct12', 'correct13', 'correct14', 'correct15'];
+        var correctAnswers = ['correct_16', 'correct_17', 'correct_18', 'correct_19', 'correct_20', 'correct_21', 'correct_22', 'correct_23', 'correct_24', 'correct_25', 'correct_26', 'correct_27', 'correct_28', 'correct_29', 'correct_30', 'correct_#16', 'correct_#17', 'correct_#18', 'correct_#19', 'correct_#20', 'correct_#21', 'correct_#22', 'correct_#23', 'correct_#24', 'correct_#25', 'correct_#26', 'correct_#27', 'correct_#28', 'correct_#29', 'correct_#30', 'correct_#31', 'correct_#32', 'correct_#33', 'correct_#34', 'correct_#35'];
     
         // Loop through each correct answer ID
         for (var i = 0; i < correctAnswers.length; i++) {
