@@ -157,12 +157,11 @@ ol {
   font-weight: 700;
   text-align: center;
   color: green;
-  transition: .3s
+  transition: 3s
 }
 #results:hover, #results2:hover, #results3:hover{
-  color: white;
+  color: rgb(1, 116, 1);
   cursor: not-allowed;
-  filter: blur(10px);
 }
 #result-card, #result-card2, #result-card3{
     display: none;
