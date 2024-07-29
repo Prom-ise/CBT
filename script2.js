@@ -56,7 +56,7 @@ let timeLeft;
 let countdown; 
 
 function startTimer(){
-    timeLeft = 1 * 10 * 60;
+    timeLeft = 1 * 15 * 60;
     countdown = setInterval(() => {
         if (timeLeft <= 0){
             clearInterval(countdown);
@@ -81,7 +81,7 @@ function updateTimerDisplay() {
 let timeLeft2; 
 let countdown2; 
 function startTimer2(){
-    timeLeft2 = 1 * 10 * 60;
+    timeLeft2 = 1 * 15 * 60;
     countdown2 = setInterval(() => {
         if (timeLeft2 <= 0){
             clearInterval(countdown2);
@@ -106,7 +106,7 @@ function updateTimerDisplay2() {
 let timeLeft3; 
 let countdown3; 
 function startTimer3(){
-    timeLeft3 = 1 * 10 * 60;
+    timeLeft3 = 1 * 15 * 60;
     countdown3 = setInterval(() => {
         if (timeLeft3 <= 0){
             clearInterval(countdown3);
